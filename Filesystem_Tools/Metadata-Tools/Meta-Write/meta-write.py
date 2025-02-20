@@ -6,16 +6,16 @@ Date: 2025-02-19
 License: MIT License
 
 Description:
-This script extracts metadata from **structured filenames** and writes it into the actual music file's metadata.  
-It ensures **track number, artist, title, and featured artists** are correctly embedded.
+This script extracts metadata from structured filenames and writes it into the actual music file's metadata.  
+It ensures track number, artist, title, and featured artists are correctly embedded.
 
 Features:
-- Supports **MP3, FLAC, and WAV** file formats.
+- Supports MP3, FLAC, and WAV file formats.
 - Parses various filename structures intelligently.
 - Recognizes multiple separators (`-`, `_`, `ft.`, `feat.`).
 - Handles missing track numbers and normalizes metadata.
-- Writes metadata using **Mutagen**.
-- Includes a **progress bar** for large music libraries.
+- Writes metadata using Mutagen.
+- Includes a progress bar for large music libraries.
 
 Usage:
     python metadata-writer.py <directory>
